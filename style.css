@@ -1,0 +1,24 @@
+/*Exemplo de reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+:root{
+    --cor_menu : purple;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    background-color: var(--cor_menu);
+    align-items: center;
+}
+
+.cabecalho__detalhes__user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
