@@ -7,6 +7,7 @@
 
 :root{
     --cor_menu : purple;
+    --altura_cabecalho: 55px;
 }
 
 .cabecalho {
@@ -15,10 +16,21 @@
     justify-content:  space-between;
     background-color: var(--cor_menu);
     align-items: center;
+    height: var(--altura_cabecalho);
 }
 
 .cabecalho__detalhes__user{
     height: 40px;
     width: 40px;
     border-radius: 50px;
+}
+
+.corpo{
+    height: calc(100vh - var(--altura_cabecalho));
+}
+
+.menu{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
 }
