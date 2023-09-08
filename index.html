@@ -10,8 +10,7 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho__detalhes">
-            <img src="./images/logo.png" alt="Logo da empresa">
-            <i class="material-icons">menu</i>
+            <img class="cabecalho__detalhes__logo" src="./images/logo_ifrn.png" alt="Logo da empresa">
         </div>
         <div class="cabecalho__detalhes">
             <img class="cabecalho__detalhes__user" src="./images/user.jpg" alt="Usuário">
@@ -20,14 +19,37 @@
     <!--FIM HEADER-->
 
     <div class="corpo">
-        <nav class="menu">
-            <h3>Navigation</h3>
-            <ul>
-                <li><a>Dashboard</a></li>
-                <li><a>Relatório</a></li>
-                <li><a>Configuração</a></li>
-            </ul>
-        </nav>
+        <aside class="corpo__menu">
+            <nav class="corpo__menu__nav">
+                <button>
+                    <i class="material-icons">menu</i>
+                    <span>Home</span>
+                </button>
+                <hr>
+                <button>
+                    <i class="material-icons">menu</i>
+                    <span>Cursos</span>
+                </button>
+                <hr>
+                <button>
+                    <i class="material-icons">menu</i>
+                    <span>Alunos</span>
+                </button>
+                <hr>
+                <button>
+                    <i class="material-icons">menu</i>
+                    <span>Professores</span>
+                </button>
+                <hr>
+                <button>
+                    <i class="material-icons">menu</i>
+                    <span>Agenda</span>
+                </button>
+                <hr>
+            </nav>
+        </aside>
+        
+        <!-- FIM MENU -->
         <main class="principal">
         </main>
     </div>
