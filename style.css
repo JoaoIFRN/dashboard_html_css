@@ -41,6 +41,7 @@
 
 .corpo{
     height: calc(100vh - var(--altura_cabecalho));
+    display: flex;
 }
 
 .corpo__menu{
@@ -65,4 +66,29 @@
 .corpo__menu__nav button:hover {
     background: #D9BF77;
     color: black;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.formulario {
+    margin: 15px;
+    font-family: sans-serif;
+    width: 300px;
+}
+
+label {
+    display: block;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.campo {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
 }
